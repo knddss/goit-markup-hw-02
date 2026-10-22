@@ -1,4 +1,4 @@
-#header .title {
+.header .title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 
-#header .post-title {
+.header .post-title {
   color: #4d5ae5;
 }
 
@@ -27,11 +27,17 @@
   text-decoration: none;
 }
 
+.nav-menu a:hover,
+.nav-menu a:focus {
+  color: #404bbf;
+}
+
 .address ul {
   list-style: none;
 }
 
 .address a {
+  font-style: normal;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -40,3 +46,9 @@
   color: #434455;
   text-decoration: none;
 }
+
+.address a:hover,
+.address a:focus {
+  color: #404bbf;
+}
+
